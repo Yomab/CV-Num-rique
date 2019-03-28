@@ -15,6 +15,16 @@ header,body{
   color: white;
 }
 
+#navbar{
+  background-color: #11436c;
+}
+
+#btn{
+width: 10%;
+background-color: #3a859d;
+border-radius: 5%;
+}
+
 .jumbotron{
   margin-top: 10%;
   border-radius: 2%;
@@ -36,17 +46,28 @@ header,body{
   color: #6d45df;
 }
 
+@media screen and (max-width: 768px){
 #lead{
-  font-size: 3vw;
-  color: #3a859d;
+  font-size: 25px;
   padding-bottom: 2%;
+}
+ }
+
+ #lead{
+color: #3a859d;
+ }
+
+@media screen and (max-width: 768px){
+.citation{
+    font-size: 10px;
+    padding-bottom: : 70%;
+
+  }
   }
 
-  .citation{
-    font-size: 2vw;
-    padding-bottom: : 70%;
-    color: black;
-  }
+.citation{
+  color: black;
+}
 
 .wrapper{
   display: table;
@@ -61,19 +82,43 @@ header,body{
   text-shadow: black;
 }
 
+@media screen and (max-width: 768px){
 .display-3{
-  font-size: 45px;
-  color: #11436c;
+  font-size: 30px;
   text-shadow: black;
+}
+ }
+
+.display-3{
+  color: #11436c;
+ }
+
+hr{
+width: 70%;
+background-color: #ddae21;
 }
 
 .lead{
-  font-size: 30px;
+  font-size: 25px;
   color: #0e4366;
   text-shadow: black;
 }
 
- .detail{
+
+   @media screen and (max-width: 768px){
+     .detail{
+       margin-left: 2px;
+       margin-right: 2px;
+       font-size: 10px;
+       text-align: justify;
+     }
+    }
+
+   .detail{
+  color: black;
+   }
+
+   color: black;
   margin-left: 2%;
   margin-right: 2%;
  }
