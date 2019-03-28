@@ -8,9 +8,10 @@ width: 100%;
 height: 100%;
 }
 
-header{
+header,body{
   background: url("eleph en ville 2 (new).jpg") no-repeat center center;
   background-size: cover;
+  background-attachment: fixed;
   color: white;
 }
 
@@ -22,7 +23,13 @@ header{
   background-color: rgba(247, 245, 245, 0.51);
    }
 
-
+ #jumbotron2{
+     margin-top: 10%;
+     border-radius: 2%;
+     margin-left: 10%;
+     margin-right: 10%;
+     background-color: rgba(247, 245, 245, 0.51);
+      }
 
 
 .Name{
@@ -55,7 +62,7 @@ header{
 }
 
 .display-3{
-  font-size: 5vw;
+  font-size: 45px;
   color: #11436c;
   text-shadow: black;
 }
@@ -66,10 +73,14 @@ header{
   text-shadow: black;
 }
 
+ .detail{
+  margin-left: 2%;
+  margin-right: 2%;
+ }
 
 main{
   max-width: 650px;
   margin: 80px auto;
 }
 p{
-  font-size: 20px;
+font-size: 20px;
