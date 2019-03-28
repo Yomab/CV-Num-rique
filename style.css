@@ -20,53 +20,13 @@ header,body{
 }
 
 #btn{
-width: 10%;
+color: #11436c;
+
+font-family: 'Oswald', sans-serif;
+width: 70px;
+
 background-color: #3a859d;
 border-radius: 5%;
-}
-
-.jumbotron{
-  margin-top: 10%;
-  border-radius: 2%;
-  margin-left: 10%;
-  margin-right: 10%;
-  background-color: rgba(247, 245, 245, 0.51);
-   }
-
- #jumbotron2{
-     margin-top: 10%;
-     border-radius: 2%;
-     margin-left: 10%;
-     margin-right: 10%;
-     background-color: rgba(247, 245, 245, 0.51);
-      }
-
-
-.Name{
-  color: #6d45df;
-}
-
-@media screen and (max-width: 768px){
-#lead{
-  font-size: 25px;
-  padding-bottom: 2%;
-}
- }
-
- #lead{
-color: #3a859d;
- }
-
-@media screen and (max-width: 768px){
-.citation{
-    font-size: 10px;
-    padding-bottom: : 70%;
-
-  }
-  }
-
-.citation{
-  color: black;
 }
 
 .wrapper{
@@ -82,50 +42,62 @@ color: #3a859d;
   text-shadow: black;
 }
 
-@media screen and (max-width: 768px){
-.display-3{
-  font-size: 30px;
-  text-shadow: black;
-}
- }
-
-.display-3{
-  color: #11436c;
- }
-
-hr{
-width: 70%;
-background-color: #ddae21;
-}
-
-.lead{
-  font-size: 25px;
-  color: #0e4366;
-  text-shadow: black;
-}
-
-
-   @media screen and (max-width: 768px){
-     .detail{
-       margin-left: 2px;
-       margin-right: 2px;
-       font-size: 10px;
-       text-align: justify;
-     }
-    }
-
-   .detail{
-  color: black;
+.jumbotron{
+  margin-top: 15%;
+  border-radius: 2%;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: rgba(247, 245, 245, 0.51);
    }
 
-   color: black;
-  margin-left: 2%;
-  margin-right: 2%;
- }
+ #jumbotron2{
+     margin-top: 10%;
+     border-radius: 2%;
+     margin-left: 10%;
+     margin-right: 10%;
+     background-color: rgba(247, 245, 245, 0.51);
+      }
 
-main{
-  max-width: 650px;
-  margin: 80px auto;
+.display-3{
+  font-size: 2.1rem;
+  font-family: 'Oswald', sans-serif;
+color: #11436c;
+
 }
-p{
-font-size: 20px;
+
+hr{
+  height: 0.08rem;
+width: 70%;
+background-color: #1670cd;
+}
+
+#lead{
+ font-size: 1.5rem;
+  font-family: 'Oswald', sans-serif;
+color: #2f7085;
+
+}
+
+.citation{
+  font-size: 0.7rem;
+  font-family: 'Montserrat', sans-serif;
+color: black;
+
+}
+
+.display-4{
+  font-size: 1.5rem;
+  font-family: 'Oswald', sans-serif;
+color: #11436c;
+
+}
+
+.detail{
+  font-size: 0.7rem;
+  font-family: 'Montserrat', sans-serif;
+color: black;
+margin-left: 5px;
+margin-right: 5px;
+
+text-align: justify;
+}
