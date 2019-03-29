@@ -3,7 +3,7 @@ margin: 0;
 padding: 0;
 }
 
-header,body,html{
+body,html{
 width: 100%;
 height: 100%;
 }
@@ -95,7 +95,7 @@ color: #11436c;
 }
 
 .detail{
-  font-size: 0.7rem;
+  font-size: 1rem;
   font-family: 'Montserrat', sans-serif;
 color: black;
 margin-left: 5px;
@@ -104,11 +104,32 @@ margin-right: 5px;
 text-align: justify;
 }
 
+.global {
+   overflow:auto;
+}
+#gauche {
+ font-size: 1rem;
+  padding-left: 90px;
+   color: black;
+   float:left;
+   width:60%;
+}
+#droite {
+  font-size: 1rem;
+  color: black;
+  padding-right: 240px;
+   /* overflow:auto; */
+}
+
 .caroutitre{
   font-size: 1.5rem;
   font-family: 'Anton', sans-serif;
    background-color: rgba(247, 245, 245, 0.31);
-  color: #4b4e52;
+  color: #313234;
+}
+
+#BG-footer{
+  background-color: rgba(#5c5e5c, 0.77)
 }
 
 #link{
@@ -127,19 +148,28 @@ h2{
 
 .Adresse2{
   font-size: 1.3rem;
-  color: #225262;
+  color: #112f39;
 }
 
 #lien{
   font-size: 1rem;
+  color: #2a73af;
 }
 
 
 .linkfolio1{
-  font-size: 2rem;
-  color: rgb(219, 174, 12)
+  border-radius: 3%;
+  background-color: rgb(11, 162, 177);
+  font-size: 1.7rem;
+  color: rgb(219, 174, 12);
 }
 .linkfolio2{
+  border-radius: 3%;
+  background-color: rgb(219, 174, 12);
   font-size: 2rem;
   color: rgb(11, 162, 177)
+}
+#Liens{
+font-size: 2rem;
+ color:  #2a73af;
 }
