@@ -7,26 +7,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="style.css" />
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Oswald" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
   <title>CV Numérique</title>
 </head>
 
 <body>
      <header>
-  <nav id="navbar" class="navbar navbar-light fixed-top">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <nav id="navbar" class="navbar navbar-dark fixed-top">
+    <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <a class="navbar-brand text-center" id="btn" href="#">retour</a>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item">
-          <a class="nav-link" href="#formation">formation</a>
+          <a class="nav-link" id="link" href="#formation">formation</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#mdo">experiences</a>
+          <a class="nav-link" id="link" href="#mdo">experiences</a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" id="dpd" aria-haspopup="true" aria-expanded="false">Dropdown</a>
           <div class="dropdown-menu">
             <a class="dropdown-item" href="#one">portfolio</a>
             <a class="dropdown-item" href="#two">LinkedIn</a>
@@ -36,7 +37,9 @@
           </div>
         </li>
       </ul>
+    </div>
   </nav>
+</header>
 
 <div class="wrapper">
   <div class="content">
@@ -90,50 +93,43 @@
           <div class="carousel-item active">
             <img src="matahari1.jpg" class="d-block img-fluid mx-auto" alt="mise en page">
             <div class="carousel-caption d-none d-md-block mx-auto">
-              <h5>Mise en page InDesign</h5>
-              <p>Mise en page avec InDesign.</p>
+            <p class="caroutitre">Mise en page avec InDesign.</p>
             </div>
           </div>
           <div class="carousel-item">
             <img src="matahari2.jpg" class="d-block w-100" alt="mise en page">
             <div class="carousel-caption d-none d-md-block mx-auto">
-              <h5>Mise en page InDesign</h5>
-              <p>Mise en page avec InDesign.</p>
+            <p class="caroutitre">Mise en page avec InDesign.</p>
             </div>
           </div>
           <div class="carousel-item">
             <img src="logomayo.jpg" class="d-block w-100" alt="logo">
             <div class="carousel-caption d-none d-md-block mx-auto">
-              <h5>Conception de logo</h5>
-              <p>Conception de logo vectoriel.</p>
+            <p class="caroutitre">Conception de logo vectoriel.</p>
             </div>
           </div>
           <div class="carousel-item">
             <img src="afficheassassinscreed.jpg" class="d-block w-100" alt="compositing">
             <div class="carousel-caption d-none d-md-block mx-auto">
-              <h5>Compositing Photoshop</h5>
-              <p>Compositing avec Photoshop.</p>
+            <p class="caroutitre">Compositing avec Photoshop.</p>
             </div>
           </div>
           <div class="carousel-item">
             <img src="elephenville2.jpg" class="d-block w-100" alt="compositing">
             <div class="carousel-caption d-none d-md-block mx-auto">
-              <h5>Compositing Photoshop</h5>
-              <p>Compositing avec Photoshop.</p>
+            <p class="caroutitre">Compositing avec Photoshop.</p>
             </div>
           </div>
           <div class="carousel-item">
             <img src="changementdecouleuroriginal.jpg" class="d-block w-100" alt="gestionphoto">
             <div class="carousel-caption d-none d-md-block mx-auto">
-              <h5>Remplacement de couleur avec Photoshop</h5>
-              <p>Remplacement de couleur avec Photoshop.</p>
+            <p class="caroutitre">Remplacement de couleur avec Photoshop.</p>
             </div>
           </div>
           <div class="carousel-item">
             <img src="changementdecouleur.jpg" class="d-block w-100" alt="gestionphoto">
             <div class="carousel-caption d-none d-md-block mx-auto">
-              <h5>Remplacement de couleur avec Photoshop</h5>
-              <p>Remplacement de couleur avec Photoshop.</p>
+            <p class="caroutitre">Remplacement de couleur avec Photoshop.</p>
             </div>
           </div>
         </div>
@@ -152,7 +148,67 @@
      </div>
    </div>
   </div>
-</header>
+
+
+     <div class="jumbotron jumbotron-fluid" id="jumbotron5">
+   <footer class="page-footer font-small blue pt-4">
+
+       <!-- Footer Links -->
+       <div class="container-fluid text-center text-sm-left">
+
+         <!-- Grid row -->
+         <div class="row">
+
+           <!-- Grid column -->
+           <div class="col-md-6 mt-md-0 mt-3">
+
+
+             <h5 class="text-uppercase"</h5>
+
+               <h2 class="Adresse" >Contact:</h2>
+                <ul class="Adresse2">
+               <li><strong>Adresse:125 rue jules Lecesne</strong></li>
+                <li><strong>76600 Le Havre</strong></li>
+                <li><strong>Tel: 06 25 95 12 87</strong></li>
+                <li><strong>Courriel: mabire.yoan@gmail.com</strong></li>
+              </ul>
+           </div>
+           <!-- Grid column -->
+
+           <hr class="clearfix w-100 d-md-none pb-3" />
+
+           <!-- Grid column -->
+           <div class="col-md-3 mb-md-0 mb-3">
+
+             <div class="col-md-3 mb-md-0 mb-3">
+
+               <!-- Links -->
+               <h5 class="text-uppercase">LIENS</h5>
+
+               <ul class="list-unstyled">
+                 <li>
+                   <a href ="https://www.linkedin.com/in/yoan-mabire-79a684167/"><span class="linkfolio1">LinkedIn</span></a>
+                 </li>
+                 <li>
+                   <a href="https://mabireyoan.pb.online"/><span class="linkfolio2">Portfolio</span></a>
+                 </li>
+               </ul>
+
+             </div>
+
+
+         </div>
+
+
+       </div>
+
+       <div class="footer-copyright text-center py-3">© 2019 Copyright:
+       </div>
+
+
+     </footer>
+
+
 
 
 
